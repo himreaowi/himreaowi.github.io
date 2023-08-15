@@ -35,11 +35,8 @@ const ProjectSection = () => {
       <div className="flex flex-col space-y-10">
         {projects.map((project, idx) => {
           return (
-            <SlideUp offset="-300px 0px -300px 0px">
-              <div
-                className="w-full min-h-60 max-h-100 px-7 py-6 mt-12 bg-rose-300 dark:bg-indigo-900 border-0 rounded-2xl shadow animate-slideUpCubBezier animation-delay-2 shadow"
-                key={idx}
-              >
+            <SlideUp offset="-300px 0px -300px 0px" key={idx}>
+              <div className="w-full min-h-60 max-h-100 px-7 py-6 mt-12 bg-rose-300 dark:bg-indigo-900 border-0 rounded-2xl shadow animate-slideUpCubBezier animation-delay-2 shadow">
                 <h1 className="text-4xl font-bold mb-6 text-rose-900 dark:text-neutral-100">
                   {project.name}
                 </h1>
