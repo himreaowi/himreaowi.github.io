@@ -19,10 +19,10 @@ const HeroSection = () => {
         </div>
         <div className="md:w-3/5 md:mt-2">
           <h1 className="font-bold text-3xl mt-6 md:text-7xl md:mt-0">
-            Hi, I&#39m Himari!
+            Hi, I am Himari!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39m a Final Year Computer Science Undergraduate at Nanyang
+            I am a Final Year Computer Science Undergraduate at Nanyang
             Technological University and am an aspiring software engineer!
           </p>
           <Link
