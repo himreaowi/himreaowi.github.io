@@ -10,19 +10,25 @@ const projects = [
     name: "NTUMoon",
     description:
       "NTUMoon is a web application that helps NTU Undergraduates plan out their timetable for the upcoming semester and leave reviews on modules that they have previously taken.",
-    github: "google.com",
+    github: "https://github.com/himreaowi/NTUMoon",
   },
   {
     name: "Jarvis",
     description:
       "Jarvis is a password manager application that allows users to manage and generate random passwords. Jarvis relies on vault encryption and decyption to keep a user's passwords safe.",
-    github: "google.com",
+    github: "https://github.com/himreaowi/jarvis_pw",
+  },
+  {
+    name: "Shopping Website",
+    description:
+      "Shopping Website is a web application developed using ReactJS and Redux to view and add products to a user's shopping cart.",
+    github: "https://github.com/himreaowi/shopping_website",
   },
   {
     name: "Travello",
     description:
       "Travello is an all rounded web application platform for users to plan their trips. Users are able to check tickets for their flights, hotels and also various attractions that they would like to visit in Singapore.",
-    github: "google.com",
+    github: "https://github.com/himreaowi/travello",
   },
 ];
 const ProjectSection = () => {
@@ -44,7 +50,7 @@ const ProjectSection = () => {
                   {project.description}
                 </p>
                 <div>
-                  <Link href={project.github} target="_blank">
+                  <Link href={project.github} rel="noreferrer" target="_blank">
                     <BsGithub
                       size={30}
                       className="hover:-translate-y-1 transition-transform cursor-pointer text-rose-900 dark:text-neutral-100"
